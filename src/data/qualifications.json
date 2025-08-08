@@ -1,0 +1,41 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "Faculty of Specific Education",
+      "institution": "Ain Shams University",
+      "year": "2017 - 2021",
+      "description": "Graduated with honors in Educational Technology, Ain Shams University. Developed a Learning Management System as a graduation project."
+    },
+    {
+      "id": 2,
+      "degree": "Instructional Designer",
+      "institution": "Nafham Education Company",
+      "year": "Aug 2020 - Oct 2020",
+      "description": "Transform content into engaging educational with storyboards, multimedia and collaboration to ensure effective instructional design."
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Senior Instructional Designer",
+      "company": "Selah El Telmeez",
+      "year": "Oct 2024 - Present",
+      "description": "Design learning experiences using clear objectives, gamification, and storyboards - ensuring accuracy through expert collaboration and content review."
+    },
+    {
+      "id": 2,
+      "position": "E-Learing Specialist",
+      "company": "Skilldi",
+      "year": "Sep 2023 - Oct 2024",
+      "description": "Design and develop e-learning courses with Storyline 360, applying learning theories, audience analysis, and content review for quality."
+    },
+    {
+      "id": 3,
+      "position": "Instructional Designer",
+      "company": "Learnkhana",
+      "year": "Aug 2023 - May 2024",
+      "description": "Create e-learning storyboards, edit videos creatively, and design interactive online activities tailored to diverse learning styles."
+    }
+  ]
+}

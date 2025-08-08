@@ -1,0 +1,40 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "position": "Training Manager",
+      "company": "Global Sales Corp",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "text": "Mohamed transformed our training program completely. The interactive modules he created increased our completion rates by 40% and employee satisfaction scores by 60%. His attention to detail and understanding of adult learning principles is exceptional."
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ahmed Hassan",
+      "position": "Dean of Medical Education",
+      "company": "Cairo Medical University",
+      "avatar": "https://images.pexels.com/photos/612807/pexels-photo-612807.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "text": "The medical simulation game Mohamed developed has revolutionized how our students learn patient care. The realistic scenarios and immediate feedback have significantly improved their clinical reasoning skills."
+    },
+    {
+      "id": 3,
+      "name": "Lisa Chen",
+      "position": "Product Manager",
+      "company": "EduTech Innovations",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "text": "Working with Mohamed was a pleasure. He delivered our language learning app ahead of schedule and exceeded all our expectations. His technical expertise combined with educational insight made all the difference."
+    },
+    {
+      "id": 4,
+      "name": "Mark Thompson",
+      "position": "Head of Learning & Development",
+      "company": "Tech Solutions Inc",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "text": "Mohamed's SCORM packages work flawlessly across all our LMS platforms. His attention to technical standards and learner experience is unmatched. We've seen a 50% increase in course completion rates."
+    }
+  ]
+}

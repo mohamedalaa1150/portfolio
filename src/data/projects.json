@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Digital Transformation Governance",
+      "category": "E-learning Development",
+      "thumbnail": "src/assets/projects/project_1/thumbnail.jpg",
+      "images": [
+        "src/assets/projects/project_1/cover_1.jpg",
+        "src/assets/projects/project_1/cover_2.jpg"
+      ],
+      "description": "Interactive e-learning course explaining key principles of digital transformation governance. Includes real-life case studies, branching scenarios, and policy simulations. Developed for a government agency aiming to upskill 200+ employees.",
+      "features": [
+        "Interactive governance scenarios.",
+        "Mobile-friendly design.",
+        "Progress tracking.",
+        "Aligned with digital transformation policies."
+      ],
+      "tools": [
+        "Articulate Storyline",
+        "JavaScript",
+        "SCORM 2004",
+        "Microsoft Word",
+        "Adobe Illustrator"
+      ],
+      "duration": "1 Months",
+      "team": "2 Members",
+      "client": "General Authority for Military Industries",
+      "videoUrl": "/src/assets/projects/project_1/video.mp4",
+      "scormUrl": "/src/assets/projects/project_1/story.html",
+      "files": [
+        {
+          "name": "Project Storyboard.pdf",
+          "url": "/src/assets/projects/project_1/sb.pdf",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sidebar Course Navigation",
+      "category": "E-learning Development",
+      "thumbnail": "src/assets/projects/project_2/thumbnail.jpg",
+      "images": [
+        "src/assets/projects/project_2/cover_1.jpg",
+        "src/assets/projects/project_2/cover_2.jpg",
+        "src/assets/projects/project_2/cover_3.jpg"
+      ],
+      "description": "Prototype of a landing page featuring a sidebar navigation menu for course content. Designed to explore intuitive layout and smooth user experience using Articulate Storyline.",
+      "features": [
+        "Easy navigation menu",
+        "Clickable course pages",
+        "Simple clean design"
+      ],
+      "tools": ["Articulate Storyline", "Adobe Illustrator"],
+      "duration": "3 hours",
+      "team": "Solo project",
+      "client": "Prototype",
+      "videoUrl": "/src/assets/projects/project_2/video.mp4",
+      "scormUrl": "/src/assets/projects/project_2/story.html",
+      "files": []
+    },
+    {
+      "id": 3,
+      "title": "Language Learning App",
+      "category": "Mobile Learning",
+      "thumbnail": "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "images": [
+        "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4050318/pexels-photo-4050318.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "description": "Mobile-first language learning application with AI-powered conversation practice and adaptive learning algorithms.",
+      "features": [
+        "AI conversation partner",
+        "Adaptive difficulty adjustment",
+        "Offline learning capability",
+        "Social learning community",
+        "Progress analytics dashboard"
+      ],
+      "tools": ["React Native", "Node.js", "MongoDB", "TensorFlow"],
+      "duration": "8 months",
+      "team": "5 members",
+      "client": "EduTech Startup",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "scormUrl": "#",
+      "files": [
+        { "name": "App Wireframes.pdf", "url": "#", "type": "pdf" },
+        { "name": "Technical Specifications.docx", "url": "#", "type": "docx" },
+        { "name": "User Testing Report.pdf", "url": "#", "type": "pdf" }
+      ]
+    }
+  ]
+}

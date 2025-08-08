@@ -1,0 +1,85 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Storyboarding",
+      "icon": "FileText",
+      "shortDescription": "Detailed visual planning for your learning content",
+      "fullDescription": "Professional storyboard creation that serves as the blueprint for your e-learning projects. I develop detailed visual and narrative frameworks that clearly communicate the learning flow, interactions, assessments, and multimedia elements, ensuring all stakeholders are aligned before development begins.",
+      "features": [
+        "Visual learning flow design",
+        "Interaction specifications",
+        "Assessment planning",
+        "Multimedia integration strategy",
+        "Stakeholder collaboration tools"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe XD",
+        "PowerPoint",
+        "Word",
+        "MindMeister",
+        "Lucidchart"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "E-learning Development",
+      "icon": "Monitor",
+      "shortDescription": "Custom interactive learning modules tailored to your needs",
+      "fullDescription": "I create comprehensive e-learning solutions from concept to completion. This includes needs analysis, learning objective development, content creation, interactive element design, and final module delivery. Each project is built with responsive design principles and follows accessibility standards to ensure optimal learning experiences across all devices and learner abilities.",
+      "features": [
+        "Interactive multimedia content",
+        "Responsive design for all devices",
+        "Progress tracking and analytics",
+        "Custom branding and styling"
+      ],
+      "tools": ["Articulate Storyline", "Adobe Captivate", "JavaScript", "H5P"]
+    },
+    {
+      "id": 3,
+      "title": "LMS Support",
+      "icon": "Settings",
+      "shortDescription": "Complete learning management system setup and optimization",
+      "fullDescription": "Comprehensive LMS support including system selection, installation, configuration, and ongoing maintenance. I help organizations choose the right LMS platform, customize it to their needs, train administrators, and provide ongoing technical support to ensure smooth operation and maximum user engagement.",
+      "features": [
+        "Platform selection and evaluation",
+        "Custom configuration and branding",
+        "User management and permissions",
+        "Integration with existing systems",
+        "Training and documentation"
+      ],
+      "tools": ["WordPress", "Canvas", "Schoology"]
+    },
+    {
+      "id": 4,
+      "title": "SCORM Packaging",
+      "icon": "Package",
+      "shortDescription": "Standards-compliant content for seamless LMS integration",
+      "fullDescription": "Expert SCORM packaging services ensuring your learning content meets industry standards and works seamlessly across different LMS platforms. I handle all technical aspects of SCORM compliance, including progress tracking, scoring, and completion criteria, while testing thoroughly across multiple systems.",
+      "features": [
+        "SCORM 1.2 and 2004 compliance",
+        "Cross-LMS compatibility testing",
+        "Progress and completion tracking",
+        "Score reporting and analytics",
+        "Quality assurance testing"
+      ],
+      "tools": ["Articulate Storyline", "Adobe Captivate", "iSpring Suite"]
+    },
+    {
+      "id": 5,
+      "title": "Game-Based Learning",
+      "icon": "Gamepad2",
+      "shortDescription": "Engaging gamified learning experiences that drive results",
+      "fullDescription": "I design and develop engaging game-based learning experiences that combine education with entertainment. These solutions incorporate game mechanics like points, badges, leaderboards, and storylines to increase learner engagement and knowledge retention while maintaining clear learning objectives.",
+      "features": [
+        "Custom game mechanics design",
+        "Progressive difficulty levels",
+        "Achievement and reward systems",
+        "Multiplayer and social features",
+        "Performance analytics and insights"
+      ],
+      "tools": ["Unity", "Articulate Storyline", "JavaScript/HTML5"]
+    }
+  ]
+}

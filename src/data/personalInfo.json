@@ -1,0 +1,43 @@
+{
+  "name": "Mohamed Alaa",
+  "title": "Instructional Designer & E-learning Specialist",
+  "heroSubtitle": "I craft learner-centered, interactive content with a passion for innovation and game-based learning.",
+  "typingPhrases": ["Instructional Designer", "E-learning Specialist"],
+  "about": {
+    "summary": "Passionate instructional designer with 3+ years of experience creating engaging e-learning solutions. I specialize in transforming complex concepts into interactive, learner-centered experiences that drive real results.",
+    "fullBio": "Mohamed Alaa is an experienced Instructional Designer and E-learning Specialist with a proven track record of developing innovative learning solutions. With expertise in modern learning technologies, game-based learning, and SCORM development, Mohamed has helped organizations transform their training programs and achieve measurable learning outcomes.\n\nHis approach combines pedagogical best practices with cutting-edge technology to create engaging, effective learning experiences. From corporate training modules to educational games, Mohamed's work consistently delivers results that exceed expectations.",
+    "knowledge": [
+      "Storyboarding",
+      "Content Strategy",
+      "Game-Based Learning",
+      "Gamification",
+      "VR, AR & MR",
+      "UX/UI",
+      "SCORM Packaging",
+      "HTML, CSS & JS",
+      "E-Learning Development"
+    ],
+    "programs": [
+      "Articulate Storyline",
+      "Adobe Captivate",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe Premiere",
+      "Camtasia",
+      "Microsoft Office",
+      "LMS Platforms",
+      "AI Tools"
+    ]
+  },
+  "contact": {
+    "email": "muhamed.a.rashed@gmail.com",
+    "phone": "+20 115 045 8003",
+    "location": "Cairo, Egypt",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/mohamed-alaa-rashed/",
+      "facebook": "https://www.facebook.com/mo.alaa20",
+      "instagram": "https://www.instagram.com/mo.alaa20/"
+    }
+  },
+  "cvDownloadUrl": "/src/assets/Mohamed Alaa.pdf"
+}
