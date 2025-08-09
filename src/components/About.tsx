@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ArrowRight, User, Award, Target, X, Circle } from "lucide-react";
-
 import personalInfo from "../data/personalInfo.json";
+import heroImg from "/img/hero.jpg";
 
 const About: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
@@ -124,7 +124,7 @@ const About: React.FC = () => {
             <div className="p-4 lg:p-6 space-y-4 lg:space-y-6">
               <div className="w-24 h-24 lg:w-32 lg:h-32 mx-auto rounded-full overflow-hidden border-3 lg:border-4 border-primary">
                 <img
-                  src="../src/assets/img/hero.jpg"
+                  src={heroImg}
                   alt="Mohamed Alaa"
                   className="w-full h-full object-cover"
                 />

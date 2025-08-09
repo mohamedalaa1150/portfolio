@@ -4,10 +4,10 @@
       "id": 1,
       "title": "Digital Transformation Governance",
       "category": "E-learning Development",
-      "thumbnail": "src/assets/projects/project_1/thumbnail.jpg",
+      "thumbnail": "projects/project_1/thumbnail.jpg",
       "images": [
-        "src/assets/projects/project_1/cover_1.jpg",
-        "src/assets/projects/project_1/cover_2.jpg"
+        "projects/project_1/cover_1.jpg",
+        "projects/project_1/cover_2.jpg"
       ],
       "description": "Interactive e-learning course explaining key principles of digital transformation governance. Includes real-life case studies, branching scenarios, and policy simulations. Developed for a government agency aiming to upskill 200+ employees.",
       "features": [
@@ -26,12 +26,12 @@
       "duration": "1 Months",
       "team": "2 Members",
       "client": "General Authority for Military Industries",
-      "videoUrl": "/src/assets/projects/project_1/video.mp4",
-      "scormUrl": "/src/assets/projects/project_1/story.html",
+      "videoUrl": "projects/project_1/video.mp4",
+      "scormUrl": "projects/project_1/story.html",
       "files": [
         {
           "name": "Project Storyboard.pdf",
-          "url": "/src/assets/projects/project_1/sb.pdf",
+          "url": "projects/project_1/sb.pdf",
           "type": "pdf"
         }
       ]
@@ -40,11 +40,11 @@
       "id": 2,
       "title": "Sidebar Course Navigation",
       "category": "E-learning Development",
-      "thumbnail": "src/assets/projects/project_2/thumbnail.jpg",
+      "thumbnail": "projects/project_2/thumbnail.jpg",
       "images": [
-        "src/assets/projects/project_2/cover_1.jpg",
-        "src/assets/projects/project_2/cover_2.jpg",
-        "src/assets/projects/project_2/cover_3.jpg"
+        "projects/project_2/cover_1.jpg",
+        "projects/project_2/cover_2.jpg",
+        "projects/project_2/cover_3.jpg"
       ],
       "description": "Prototype of a landing page featuring a sidebar navigation menu for course content. Designed to explore intuitive layout and smooth user experience using Articulate Storyline.",
       "features": [
@@ -56,8 +56,8 @@
       "duration": "3 hours",
       "team": "Solo project",
       "client": "Prototype",
-      "videoUrl": "/src/assets/projects/project_2/video.mp4",
-      "scormUrl": "/src/assets/projects/project_2/story.html",
+      "videoUrl": "projects/project_2/video.mp4",
+      "scormUrl": "projects/project_2/story.html",
       "files": []
     },
     {

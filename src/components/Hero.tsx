@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight, MapPin, Mail, Phone } from "lucide-react";
 import TypingAnimation from "./TypingAnimation";
 import personalInfo from "../data/personalInfo.json";
+import heroIgm from "/img/hero.jpg";
 
 const Hero: React.FC = () => {
   const scrollToAbout = () => {
@@ -73,7 +74,7 @@ const Hero: React.FC = () => {
               <div className="w-64 h-64 sm:w-[500px] sm:h-[500px] mx-auto">
                 <div className="w-full h-full overflow-hidden border-3  border-primary shadow-2xl">
                   <img
-                    src="/src/assets/img/hero.jpg"
+                    src={heroIgm}
                     alt="Mohamed Alaa"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
