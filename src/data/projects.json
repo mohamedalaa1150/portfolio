@@ -133,7 +133,7 @@
       "id": 5,
       "title": "Water Cycle",
       "category": "Storyboarding",
-      "thumbnail": "projects/project_4/thumbnail.jpg",
+      "thumbnail": "projects/SB/Water cycle.jpg",
       "images": [],
       "description": "Storyboard project for an educational game about the water cycle. I developed the full narrative flow, problem-solving scenarios, and visual concepts to guide the design and development of the game.",
 
@@ -146,7 +146,7 @@
       "tools": ["Microsoft Word", "Adobe Illustrator"],
       "duration": "8 hours",
       "team": "Only",
-      "client": "Prototype",
+      "client": "Company",
       "files": [
         {
           "name": "Storyboard.pdf",
@@ -157,26 +157,26 @@
     },
     {
       "id": 6,
-      "title": "Water Cycle",
+      "title": "Implementing Local Content Measurement Mechanisms",
       "category": "Storyboarding",
-      "thumbnail": "projects/project_4/thumbnail.jpg",
+      "thumbnail": "projects/SB/Implementing local.jpg",
       "images": [],
-      "description": "Storyboard project for an educational game about the water cycle. I developed the full narrative flow, problem-solving scenarios, and visual concepts to guide the design and development of the game.",
+      "description": "Storyboard project for an application focused on measuring local content mechanisms. I created the complete storyboard, including the narrative structure and visual concepts, to clearly represent the process and application design.",
 
       "features": [
-        "Complete storyboard creation.",
-        "Problem-solving–based scenarios.",
-        "Visual concepts for game scenes.",
-        "Structured narrative for the water cycle game."
+        "Comprehensive storyboard development.",
+        "Detailed visualization of local content measurement mechanisms.",
+        "Visual concepts supporting application design.",
+        "Clear narrative structure tailored for the application."
       ],
       "tools": ["Microsoft Word", "Adobe Illustrator"],
-      "duration": "8 hours",
+      "duration": "16 hours",
       "team": "Only",
-      "client": "Prototype",
+      "client": "Company",
       "files": [
         {
           "name": "Storyboard.pdf",
-          "url": "projects/SB/Water cycle.pdf",
+          "url": "projects/SB/Implementing local.pdf",
           "type": "pdf"
         }
       ]
