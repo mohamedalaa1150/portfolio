@@ -84,15 +84,14 @@
         "Microsoft Word",
         "Microsoft PowerPoint"
       ],
-      "duration": "1 week",
+      "duration": "3 days",
       "team": "Solo project",
-      "client": "Primary school students",
       "videoUrl": "projects/project_3/video.mp4",
       "scormUrl": "projects/project_3/story.html",
       "files": [
         {
           "name": "Project Storyboard.pdf",
-          "url": "projects/project_1/sb.pdf",
+          "url": "projects/project_3/sb.pdf",
           "type": "pdf"
         }
       ]
@@ -122,9 +121,8 @@
         "Microsoft Word",
         "Adobe Illustrator"
       ],
-      "duration": "1 day",
+      "duration": "2 day",
       "team": "Solo project",
-      "client": "Prototype",
       "videoUrl": "projects/project_4/video.mp4",
       "scormUrl": "projects/project_4/story.html",
       "files": []
@@ -145,8 +143,8 @@
       ],
       "tools": ["Microsoft Word", "Adobe Illustrator"],
       "duration": "8 hours",
-      "team": "Only",
-      "client": "Company",
+      "team": "Solo Project",
+      "client": "Selah ElTelmeez Company",
       "files": [
         {
           "name": "Storyboard.pdf",
@@ -171,8 +169,8 @@
       ],
       "tools": ["Microsoft Word", "Adobe Illustrator"],
       "duration": "16 hours",
-      "team": "Only",
-      "client": "Company",
+      "team": "Solo Project",
+      "client": "Skilldi Company",
       "files": [
         {
           "name": "Storyboard.pdf",

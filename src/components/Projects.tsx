@@ -6,6 +6,7 @@ import {
   X,
   ArrowLeft,
   ArrowRight,
+  MessageCircleWarning,
 } from "lucide-react";
 import projects from "../data/projects.json";
 
@@ -326,6 +327,35 @@ const Projects: React.FC = () => {
                           </div>
                         </>
                       )}
+                    <p className="text-sm text-gray-300 mt-2 flex items-center gap-2">
+                      <MessageCircleWarning
+                        size={26}
+                        className="inline-block icon-pulse"
+                        style={{ ["--primary-color" as any]: "#CB877C" }}
+                      />
+                      <span>
+                        This storyboard is a sample version for demonstration
+                        purposes only. All rights reserved.
+                      </span>
+                      <style>{`
+    .icon-pulse {
+      display: inline-block;
+      color: white;
+      transform-origin: center;
+      animation: iconPulse 1.6s ease-in-out infinite;
+    }
+
+    .icon-pulse svg {
+      transform-origin: center;
+    }
+
+    @keyframes iconPulse {
+      0%   { transform: scale(1);    color: white; }
+      50%  { transform: scale(1.2); color: var(--primary-color); }
+      100% { transform: scale(1);    color: white; }
+    }
+  `}</style>
+                    </p>
                   </div>
                 </div>
               </div>
