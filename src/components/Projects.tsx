@@ -12,6 +12,7 @@ import projects from "../data/projects.json";
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(6); // عدد العناصر اللي بتظهر أول مرة
 
   const nextImage = () => {
     if (selectedProject) {
@@ -34,6 +35,10 @@ const Projects: React.FC = () => {
     setCurrentImageIndex(0);
   };
 
+  const handleShowMore = () => {
+    setVisibleCount((prev) => prev + 6);
+  };
+
   return (
     <>
       <section id="projects" className="py-20 bg-primary">
@@ -49,11 +54,10 @@ const Projects: React.FC = () => {
           </div>
 
           <div className="grid-responsive">
-            {projects.projects.map((project, index) => (
+            {projects.projects.slice(0, visibleCount).map((project) => (
               <div
                 key={project.id}
                 className="card group cursor-pointer overflow-hidden animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
                 onClick={() => openProject(project)}
               >
                 <div className="relative mb-4">
@@ -99,6 +103,18 @@ const Projects: React.FC = () => {
               </div>
             ))}
           </div>
+
+          {/* زرار Show More */}
+          {visibleCount < projects.projects.length && (
+            <div className="text-center mt-10">
+              <button
+                onClick={handleShowMore}
+                className="btn-primary px-6 py-3 rounded-lg"
+              >
+                Show More
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -128,50 +144,55 @@ const Projects: React.FC = () => {
 
             <div className="p-6 space-y-8">
               {/* Image Gallery */}
-              <div className="relative">
-                <img
-                  src={selectedProject.images[currentImageIndex]}
-                  alt={selectedProject.title}
-                  className="w-full h-64 sm:h-96 object-cover rounded-lg"
-                />
-                {selectedProject.images.length > 1 && (
-                  <>
-                    <button
-                      onClick={previousImage}
-                      className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-200"
-                    >
-                      <ArrowLeft size={20} />
-                    </button>
-                    <button
-                      onClick={nextImage}
-                      className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-200"
-                    >
-                      <ArrowRight size={20} />
-                    </button>
-                    <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                      {selectedProject.images.map((_: any, index: number) => (
-                        <button
-                          key={index}
-                          onClick={() => setCurrentImageIndex(index)}
-                          className={`w-2 h-2 rounded-full transition-all duration-200 ${
-                            index === currentImageIndex
-                              ? "bg-primary"
-                              : "bg-white bg-opacity-50"
-                          }`}
-                        />
-                      ))}
-                    </div>
-                  </>
-                )}
-              </div>
+              {selectedProject.images && selectedProject.images.length > 0 && (
+                <div className="relative">
+                  <img
+                    src={selectedProject.images[currentImageIndex]}
+                    alt={selectedProject.title}
+                    className="w-full h-64 sm:h-96 object-cover rounded-lg"
+                  />
+                  {selectedProject.images.length > 1 && (
+                    <>
+                      <button
+                        onClick={previousImage}
+                        className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-200"
+                      >
+                        <ArrowLeft size={20} />
+                      </button>
+                      <button
+                        onClick={nextImage}
+                        className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-200"
+                      >
+                        <ArrowRight size={20} />
+                      </button>
+                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                        {selectedProject.images.map((_: any, index: number) => (
+                          <button
+                            key={index}
+                            onClick={() => setCurrentImageIndex(index)}
+                            className={`w-2 h-2 rounded-full transition-all duration-200 ${
+                              index === currentImageIndex
+                                ? "bg-primary"
+                                : "bg-white bg-opacity-50"
+                            }`}
+                          />
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </div>
+              )}
 
               <div className="grid lg:grid-cols-2 gap-8">
                 {/* Project Details */}
                 <div className="space-y-6">
                   <div>
                     <h4 className="text-lg font-bold text-white mb-3">
-                      Project Overview
+                      {selectedProject.category === "Storyboarding"
+                        ? "Storyboard Overview"
+                        : "Project Overview"}
                     </h4>
+
                     <p className="text-secondary leading-relaxed">
                       {selectedProject.description}
                     </p>
@@ -218,41 +239,50 @@ const Projects: React.FC = () => {
                 {/* Project Info & Actions */}
                 <div className="space-y-6">
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="card">
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary">
-                          {selectedProject.duration}
+                    {selectedProject.duration && (
+                      <div className="card">
+                        <div className="text-center">
+                          <div className="text-2xl font-bold text-primary">
+                            {selectedProject.duration}
+                          </div>
+                          <div className="text-sm text-secondary">Duration</div>
                         </div>
-                        <div className="text-sm text-secondary">Duration</div>
                       </div>
-                    </div>
-                    <div className="card">
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary">
-                          {selectedProject.team}
+                    )}
+                    {selectedProject.team && (
+                      <div className="card">
+                        <div className="text-center">
+                          <div className="text-2xl font-bold text-primary">
+                            {selectedProject.team}
+                          </div>
+                          <div className="text-sm text-secondary">
+                            Team Size
+                          </div>
                         </div>
-                        <div className="text-sm text-secondary">Team Size</div>
                       </div>
+                    )}
+                  </div>
+                  {selectedProject.client && (
+                    <div className="card">
+                      <h5 className="font-bold text-white mb-2">Client</h5>
+                      <p className="text-primary">{selectedProject.client}</p>
                     </div>
-                  </div>
-
-                  <div className="card">
-                    <h5 className="font-bold text-white mb-2">Client</h5>
-                    <p className="text-primary">{selectedProject.client}</p>
-                  </div>
+                  )}
 
                   {/* Video Preview */}
-                  <div className="space-y-3">
-                    <h4 className="text-lg font-bold text-white">Preview</h4>
-                    <div className="aspect-video bg-black rounded-lg overflow-hidden">
-                      <iframe
-                        src={selectedProject.videoUrl}
-                        className="w-full h-full"
-                        allowFullScreen
-                        title={`${selectedProject.title} Preview`}
-                      />
+                  {selectedProject.videoUrl && (
+                    <div className="space-y-3">
+                      <h4 className="text-lg font-bold text-white">Preview</h4>
+                      <div className="aspect-video bg-black rounded-lg overflow-hidden">
+                        <iframe
+                          src={selectedProject.videoUrl}
+                          className="w-full h-full"
+                          allowFullScreen
+                          title={`${selectedProject.title} Preview`}
+                        />
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Action Buttons */}
                   <div className="space-y-3">

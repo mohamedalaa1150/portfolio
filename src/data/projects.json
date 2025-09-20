@@ -48,9 +48,9 @@
       ],
       "description": "Prototype of a landing page featuring a sidebar navigation menu for course content. Designed to explore intuitive layout and smooth user experience using Articulate Storyline.",
       "features": [
-        "Easy navigation menu",
-        "Clickable course pages",
-        "Simple clean design"
+        "Easy navigation menu.",
+        "Clickable course pages.",
+        "Simple clean design."
       ],
       "tools": ["Articulate Storyline", "Adobe Illustrator"],
       "duration": "3 hours",
@@ -62,31 +62,123 @@
     },
     {
       "id": 3,
-      "title": "Language Learning App",
-      "category": "Mobile Learning",
-      "thumbnail": "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "title": "Plants and Their Parts",
+      "category": "E-learning Development",
+      "thumbnail": "projects/project_3/thumbnail.jpg",
       "images": [
-        "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/4050318/pexels-photo-4050318.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "projects/project_3/cover_1.jpg",
+        "projects/project_3/cover_2.jpg"
       ],
-      "description": "Mobile-first language learning application with AI-powered conversation practice and adaptive learning algorithms.",
+      "description": "Interactive e-learning project introducing the parts of plants and their functions. Includes engaging visuals, labeled diagrams, and interactive exercises. Developed as a training project to practice using Articulate Storyline, Adobe Illustrator, Microsoft Word, and PowerPoint.",
+
       "features": [
-        "AI conversation partner",
-        "Adaptive difficulty adjustment",
-        "Offline learning capability",
-        "Social learning community",
-        "Progress analytics dashboard"
+        "Interactive plant diagrams.",
+        "Simple quizzes and exercises.",
+        "Visually engaging illustrations.",
+        "Beginner-friendly educational design."
       ],
-      "tools": ["React Native", "Node.js", "MongoDB", "TensorFlow"],
-      "duration": "8 months",
-      "team": "5 members",
-      "client": "EduTech Startup",
-      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "scormUrl": "#",
+
+      "tools": [
+        "Articulate Storyline",
+        "Adobe Illustrator",
+        "Microsoft Word",
+        "Microsoft PowerPoint"
+      ],
+      "duration": "1 week",
+      "team": "Solo project",
+      "client": "Primary school students",
+      "videoUrl": "projects/project_3/video.mp4",
+      "scormUrl": "projects/project_3/story.html",
       "files": [
-        { "name": "App Wireframes.pdf", "url": "#", "type": "pdf" },
-        { "name": "Technical Specifications.docx", "url": "#", "type": "docx" },
-        { "name": "User Testing Report.pdf", "url": "#", "type": "pdf" }
+        {
+          "name": "Project Storyboard.pdf",
+          "url": "projects/project_1/sb.pdf",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Gamified Learning Task with Timed Challenge",
+      "category": "E-learning Development",
+      "thumbnail": "projects/project_4/thumbnail.jpg",
+      "images": [
+        "projects/project_4/cover_1.jpg",
+        "projects/project_4/cover_2.jpg",
+        "projects/project_4/cover_3.jpg"
+      ],
+      "description": "Interactive e-learning task combining a timed matching game with professional presentations of images and data. Designed to enhance learner engagement through gamification and visually appealing content.",
+
+      "features": [
+        "Timed matching game.",
+        "Professional image and data presentation.",
+        "Interactive and engaging design.",
+        "Focus on active learner participation."
+      ],
+      "tools": [
+        "Articulate Storyline",
+        "JavaScript",
+        "SCORM 2004",
+        "Microsoft Word",
+        "Adobe Illustrator"
+      ],
+      "duration": "1 day",
+      "team": "Solo project",
+      "client": "Prototype",
+      "videoUrl": "projects/project_4/video.mp4",
+      "scormUrl": "projects/project_4/story.html",
+      "files": []
+    },
+    {
+      "id": 5,
+      "title": "Water Cycle",
+      "category": "Storyboarding",
+      "thumbnail": "projects/project_4/thumbnail.jpg",
+      "images": [],
+      "description": "Storyboard project for an educational game about the water cycle. I developed the full narrative flow, problem-solving scenarios, and visual concepts to guide the design and development of the game.",
+
+      "features": [
+        "Complete storyboard creation.",
+        "Problem-solving–based scenarios.",
+        "Visual concepts for game scenes.",
+        "Structured narrative for the water cycle game."
+      ],
+      "tools": ["Microsoft Word", "Adobe Illustrator"],
+      "duration": "8 hours",
+      "team": "Only",
+      "client": "Prototype",
+      "files": [
+        {
+          "name": "Storyboard.pdf",
+          "url": "projects/SB/Water cycle.pdf",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Water Cycle",
+      "category": "Storyboarding",
+      "thumbnail": "projects/project_4/thumbnail.jpg",
+      "images": [],
+      "description": "Storyboard project for an educational game about the water cycle. I developed the full narrative flow, problem-solving scenarios, and visual concepts to guide the design and development of the game.",
+
+      "features": [
+        "Complete storyboard creation.",
+        "Problem-solving–based scenarios.",
+        "Visual concepts for game scenes.",
+        "Structured narrative for the water cycle game."
+      ],
+      "tools": ["Microsoft Word", "Adobe Illustrator"],
+      "duration": "8 hours",
+      "team": "Only",
+      "client": "Prototype",
+      "files": [
+        {
+          "name": "Storyboard.pdf",
+          "url": "projects/SB/Water cycle.pdf",
+          "type": "pdf"
+        }
       ]
     }
   ]
